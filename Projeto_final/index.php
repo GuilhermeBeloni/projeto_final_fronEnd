@@ -203,7 +203,7 @@
         <!-- referência ao arquivo externo -->
         <a href="home.html">Home</a>
       </noscript>
-      <div id="copy" class="col-sm-12 text-center">Copyright © 2022 - All rights reserved</div>
+      <div id="copy" class="col-sm-12 text-center">Copyright © 2022 - All rights reserved | Guilherme Beloni</div>
     </footer>
 
     <!--Script_fontAwesome-->
