@@ -31,7 +31,7 @@
     <header>
       <div id="barra_acessibilidade" class="col d-none">
         <ul>
-          <li><a href="index.html" accesskey="1">Ir para menu [1]</a></li>
+          <li><a href="index.php" accesskey="1">Ir para menu [1]</a></li>
           <li>
             <a href="estudos.html" accesskey="2">Ir para estudos [2]</a>
           </li>
@@ -45,7 +45,7 @@
       </div>
       <div class="container" id="nav-container">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-          <a href="index.html" class="navbar-brand">
+          <a href="index.php" class="navbar-brand">
             <img
               id="logo"
               src="IMG/chart-4732549_120.png"
@@ -68,7 +68,7 @@
             id="navbar-links"
           >
             <div class="navbar-nav">
-              <a class="nav-item nav-link" id="home-menu" href="index.html"
+              <a class="nav-item nav-link" id="home-menu" href="index.php"
                 >Home</a
               >
               <a class="nav-item nav-link" id="estudos-menu" href="estudos.html"
