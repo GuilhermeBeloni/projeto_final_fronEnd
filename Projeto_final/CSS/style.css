@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    padding: 70px 0;
+    padding: 70px;
 }
 
 p, li {
@@ -25,10 +25,30 @@ p, li {
 
 
 #copy {
-    text-align: end;
-    
+    background-color: #f1f1f1;   
+}
+
+#copy .container {
+    padding: 10px;
+    text-align: center;
+}
+
+#copy .container p {
+    margin: 0px;
+}
+
+
+#copy .container a {
+    font-weight: bold;
+    color: #444;   
+}
+
+#copy .container a:hover {
+    text-decoration: none;
+    color: #3ec1d5;
     
 }
+
 
 /* Barra navegação */
 header, .navbar {
@@ -64,8 +84,8 @@ header, .navbar {
 
 /* Slider */
 
-.container-fluid {
-    padding: 70px;
+.container-flex {
+    padding: 0;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
@@ -152,6 +172,39 @@ header, .navbar {
     margin-right: 15px;
 }
 
+/*footer*/
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-box i:hover {
+    text-decoration: none;
+    color: #3ec1d5;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+/*Quebras*/
 @media(max-width: 768px) {
     #mainSlider {
         margin-top: 0;
@@ -175,3 +228,5 @@ header, .navbar {
     }
 
 }
+
+

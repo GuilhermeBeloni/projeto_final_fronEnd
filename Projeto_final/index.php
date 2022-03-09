@@ -197,13 +197,43 @@
         </div>
       </div>
     </main>
-    <div class="row"></div>
-    <footer class="row">
+    
+    <footer>
+      <div id="contact-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em contato:</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-title">Ligue para:</span>(18)99680-9368</p>
+              <p><span class="contact-title">Horários:</span> 9:00 - 18:00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-title">Envie um e-mail:</span> contato@tradingzone.com</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-title">Venha nos conhecer:</span> Rua Loren Ipsun - 1204</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="copy">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://github.com/GuilhermeBeloni" target="blank">GuilhermeBeloni</a> &copy; 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <noscript>
         <!-- referência ao arquivo externo -->
-        <a href="home.html">Home</a>
+        <a href="home.php">Home</a>
       </noscript>
-      <div id="copy" class="col-sm-12 text-center">Copyright © 2022 - All rights reserved | Guilherme Beloni</div>
     </footer>
 
     <!--Script_fontAwesome-->
