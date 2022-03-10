@@ -204,11 +204,9 @@ header, .navbar {
     font-size: 16px;
 }
 
-/*Quebras*/
+/*responsividade*/
 @media(max-width: 768px) {
-    #mainSlider {
-        margin-top: 0;
-    }
+
 
     #mainSlider .carousel-caption {
         top: 5%;
@@ -227,6 +225,9 @@ header, .navbar {
         padding: 50px;
     }
 
-}
+    #contact-area {
+        padding-top: 0px;
+    }
 
+}
 
